@@ -12,7 +12,7 @@ async def send_hi(sms:types.Message):
     
 
 
-@dp.message_handler(text='Joke')
+@dp.message_handler(text='joke')
 async def sendabout(sms:types.Message):
     await sms.reply(text='What do you call a magic dog?')
     time.sleep(5)
